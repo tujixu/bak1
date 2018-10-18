@@ -1,2 +1,8 @@
 代码上传操作步骤：
 1、创建代码仓 bak1
+2、在 git bash 中输入命令：git clone https://github.com/tujixu/bak1.git 建立本地代码 bak1
+3、在本地文件夹中添加自己要上传的代码
+4、cd 到 bak目录 ，输入命令：git add . 
+5、添加注释，输入：git commit -m "注释语句"
+6、上传github 要推送下， 输入：git pull origin master
+7、提交代码，输入：git push -u origin master 刷新github 就可以看到自己上传的代码了！
